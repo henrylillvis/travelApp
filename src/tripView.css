@@ -1,0 +1,27 @@
+.storyview-whole{
+  display: flex;
+  justify-content: left;
+  width: 100%;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.mainUI {
+  width: 30%;
+  margin: 5px;
+}
+
+.mainUI>div {
+  margin: 5px;
+}
+
+.mainList {
+  height: 700px;
+}
+
+.mainPanel {
+  width: 50%;
+  margin: 5px;
+}

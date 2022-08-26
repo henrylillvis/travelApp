@@ -1,0 +1,117 @@
+{
+	"matkaaja": [
+	{
+		"idmatkaaja": 1,
+		"etunimi": "Teppo",
+		"sukunimi": "Tutkija",
+		"nimimerkki": "Tepsa123"
+	},
+	{
+		"idmatkaaja": 2,
+		"etunimi": "Venla",
+		"sukunimi": "Vilpitön",
+		"nimimerkki": "Vellu_Villu"
+	},
+	{
+		"idmatkaaja": 3,
+		"etunimi": "Seppo",
+		"sukunimi": "Seikkailija",
+		"nimimerkki": "Sepi_"
+	}
+	],
+
+	"matka": [
+	{
+		"idmatka": 1,
+		"idmatkaaja": 1,
+		"alkupvm": "10.02.2022",
+		"loppupvm": "18.02.2022",
+		"yksityinen": true
+	},
+	{
+		"idmatka": 2,
+		"idmatkaaja": 1,
+		"alkupvm": "23.01.2010",
+		"loppupvm": "01.06.2014",
+		"yksityinen": true
+	},
+	{
+		"idmatka": 2,
+		"idmatkaaja": 2,
+		"alkupvm": "23.01.2010",
+		"loppupvm": "01.06.2014",
+		"yksityinen": false
+	},
+	{
+		"idmatka": 3,
+		"idmatkaaja": 3,
+		"alkupvm": "10.07.2008",
+		"loppupvm": "01.01.2019",
+		"yksityinen": false
+	},
+	{
+		"idmatka": 4,
+		"idmatkaaja": 3,
+		"alkupvm": "14.02.2019",
+		"loppupvm": "31.12.2021",
+		"yksityinen": true
+	}
+	],
+
+	"matkakohde": [
+	{
+		"idmatkakohde": 1,
+		"kohdenimi": "Peking",
+		"maa": "Kiina",
+		"paikkakunta": "tuntematon",
+		"kuvausteksti": "Kiinan pääkaupunki",
+		"kuva": ""
+	},
+	{
+		"idmatkakohde": 2,
+		"kohdenimi": "Kamppi",
+		"maa": "Suomi",
+		"paikkakunta": "Helsinki",
+		"kuvausteksti": "Kampissa Helsingin kaikki nähtävyydet.",
+		"kuva": ""
+	},
+	{
+		"idmatkakohde": 3,
+		"kohdenimi": "Saigon",
+		"maa": "Vietnam",
+		"paikkakunta": "tuntematon",
+		"kuvausteksti": "Aasian sydämessä.",
+		"kuva": ""
+	}
+	],
+
+
+	"tarina": [
+	{
+		"idtarina": 1,
+		"idmatka": 2,
+		"idmatkaaja": 1,
+		"idmatkakohde": 2,
+		"teksti": "Kävimme oikein maittavalla reissulla. :)",
+		"pvm": "19.02.2014"
+
+	},
+	{
+		"idtarina": 2,
+		"idmatka": 3,
+		"idmatkaaja": 3,
+		"idmatkakohde": 3,
+		"teksti": "Mielenkiintoinen reissu.",
+		"pvm": "10.01.2019"
+
+	},
+	{
+		"idtarina": 3,
+		"idmatka": 1,
+		"idmatkaaja": 1,
+		"idmatkakohde": 1,
+		"teksti": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa. Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac, convallis semper risus. In adipiscing ultrices tellus, in suscipit massa vehicula eu.",
+		"pvm": "20.02.2022"
+	}
+	]
+}

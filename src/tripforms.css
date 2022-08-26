@@ -1,0 +1,21 @@
+.listGroupParent{
+  display: flex;
+  justify-content:center;
+  padding: 10px;
+  height: 400px;
+}
+
+.listGroup>div{
+  height: 60%;
+  width: 40vmin;
+}
+
+.selectedPerson:hover {
+  background-color: #F93154;
+}
+
+.buttonSpan{
+  display: flex;
+  justify-content:space-between;
+  margin: 10px;
+}

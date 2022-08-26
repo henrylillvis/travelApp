@@ -1,0 +1,20 @@
+
+.LoginForm{
+    max-width: 400px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+.RegForm{
+    max-width: 800px;
+    padding: 20px;
+}
+.MessageBox{
+    height: 100px;
+    margin-top: 40px;
+    text-align: center;    
+}
+.center{
+    
+}

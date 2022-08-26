@@ -1,0 +1,21 @@
+.DestContainer {
+   /*  border: 3px solid #fff; */
+   
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.child-1 {
+    width: 25%;
+    float: left;
+    padding: 20px;
+   /*  border: 2px solid red; */
+}  
+.child-2 {
+    padding: 20px;
+    align-items: center;
+    width: 90%;
+    float: right;
+   /*  border: 2px solid red; */
+}  
