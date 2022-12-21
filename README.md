@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Travel App
+## Webapp for school project `(React, Node & MySQL)`. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Requirements: <br />
+a web application with a separate browser interface and separate backend code that talk to each other via a REST interface. The data must be stored in the database (MySQL).
+You must be able to register (sign up) in the application. When registering, you must provide at least your name, nickname, e-mail address and password. You can provide other information in your own information.
+Logging in is done using an email address and password.
 
-## Available Scripts
+### Unsigned user: <br />
+• may browse travel destinations <br />
+• sees the registration and login links <br />
+• otherwise only sees the Home and Destination pages in the menus <br />
+• The home page has a suitable image and greeting text 
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Logged in user: <br />
+• sees his own name in the menu <br /> 
+• sees Home, Destination, Groups trips, My trips, My information, Members pages <br />
+• On the travel destination page <br />
+o can add, delete, update and browse destinations. A travel destination that is accompanied by a travel report may not be deleted or updated <br />
+• On Groups trips page <br />
+o can browse (non-private) group trips and stories and pictures attached to them <br />
+• On the My Trips page <br />
+o can add, browse, update and delete own trips and stories and pictures attached to them <br />
+o can mark the trip as private, which means that no one else can see the trip in question, nor the stories or pictures that belong to it <br />
+o navigation to the stories and pictures pages can be done via the main menu or the page-specific menu at your discretion <br />
+o NOTE! The Group trips and own trips pages should be as consistent as possible <br /> 
+• On the My information page <br />
+o can update their own information (passenger board). You don't have to allow changing your e-mail and password, but if you do, it must be taken into account when logging in. <br />
+• On the Members page, you can see the other information of all members except the password and email address 
